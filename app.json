@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cognito",
-    "slug": "cognito",
+    "name": "cognita",
+    "slug": "cognita",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,6 +10,10 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "jsEngine": "hermes",
+    "experimental": {
+      "newArchEnabled": false
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +29,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "platforms": ["ios", "android", "web"]
+
   }
 }
