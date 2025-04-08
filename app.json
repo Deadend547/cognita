@@ -12,9 +12,6 @@
       "backgroundColor": "#ffffff"
     },
     "jsEngine": "hermes",
-    "experimental": {
-      "newArchEnabled": false
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
